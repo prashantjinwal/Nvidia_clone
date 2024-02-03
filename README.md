@@ -25,7 +25,6 @@ To run the clone locally, simply clone the repository and open the index.html fi
 
 bash
 Copy code
-git clone https://github.com/yourusername/nvidia-website-clone.git
 cd nvidia-website-clone
 Disclaimer
 This project is created for educational and practice purposes only. It is not affiliated with or endorsed by NVIDIA Corporation. All trademarks and copyrights are the property of their respective owners.
