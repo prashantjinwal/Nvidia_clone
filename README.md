@@ -1,5 +1,5 @@
 
---- NVIDIA Website Clone ---
+# --- NVIDIA Website Clone ---
 
 Overview
 This repository contains a clone of the NVIDIA website, designed to mimic its layout and functionality. The goal of this project is to create a realistic representation of the NVIDIA website, staying true to its design principles while allowing for future updates and the addition of new features.
