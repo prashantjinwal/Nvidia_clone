@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.Ai-head {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  font-family: "Poppins" sans-serif;
+}
+.drop-menu-up {
+  transition: all 0.6s;
+}
+.bander {
+  background-image: url(images/bander.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  width: 100%;
+}
+
+.cardCollection::-webkit-scrollbar {
+  width: 0;
+}
+.cardsection::-webkit-scrollbar {
+  width: 0;
+}
+/* .bar{
+    background: green;
+    animation: filler 3s linear forwards 1s ;
+}
+@keyframes filler {
+    100%{
+        width: 0;
+    }
+} */
+
+
+
+
+#hide-link{
+  display: none;
+}
+#hide-link2{
+  display: none;
+}
+
+
+
+.footerr{
+  border-top-left-radius: 1.5em ;
+  border-top-right-radius: 1.5em ;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+  .bander {
+    background-size: 200%;
+  }
+}
