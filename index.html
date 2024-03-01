@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body id="body" class="bg-white ">
+
+  <!-- <div class="fixed h-[16em] bottom-0 bg-black">
+    <div class="text-white">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores sed nesciunt natus aliquam repellat. Quo, autem doloremque? Consectetur rem, harum ex facilis soluta eaque dolores, perspiciatis quo inventore cumque exercitationem!</p>
+    </div>
+  </div> -->
+
+    <header class="bg-white shadow-md h-[3em] sticky top-0 p-3 z-10">
+        <nav class="flex items-center justify-between lg:justify-start lg:items-center mx-3 lg:mx-[7em]  ">
+           <div class="lg:hidden hambur-btn" >  <i id="icon" class="fa-solid fa-bars fa-xl lg:hidden " style="color: #000000;"></i></div>
+            <img class="w-[8em]" src="images/NVIDIA_logo.svg" alt="">
+            
+          <div class="drop-menu-up absolute lg:flex lg:items-center lg:relative   top-[3em] lg:top-0  h-[100vh] lg:h-0  bg-white -left-full  lg:left-0 w-full  ">
+            <ul class=" gap-7 lg:gap-[2em] mt-5 lg:mt-0 lg:text-lg  text-xl ml-8 flex flex-col lg:flex-row  ">
+                <li class="text-gray-700 hover:underline cursor-pointer"><a href="">Products</a></li>
+                <li class="text-gray-700 hover:underline cursor-pointer"><a href="">Solutions</a></li>
+                <li class="text-gray-700 hover:underline cursor-pointer"><a href="">Industries</a></li>
+                <li class="text-gray-700 hover:underline cursor-pointer"><a href="">For You</a></li>
+                <li class="text-gray-700 hover:underline cursor-pointer"><a href="">Shop</a></li>
+                <li class="text-gray-700 hover:underline cursor-pointer"><a href="">Support</a></li>
+
+            </ul>
+            <!-- <i class=" fa-solid fa-magnifying-glass fa-xl" style="color: #616770;"></i> -->
+            <!-- <i class="fa-solid fa-xmark" style="color: #212836;"></i>     corsss -->
+          </div>
+
+          <div class=" block">
+            <span class="flex gap-x-5 ">
+            <i class=" hidden lg:block fa-solid fa-magnifying-glass fa-xl" style="color: #616770;"></i>
+            <i class=" profile fa-regular fa-user fa-xl"></i>
+            </span>
+          </div>
+
+        </nav>
+    </header>
+
+
+    
+
+    <section class="bander-sec" >
+
+     <div class="bander relative lg:h-[93vh] h-[70vh] bg-black text-white">
+
+      <div class="ban-1 pt-[3em] p-8 lg:p-[8.8em] lg:pt-[10em] ">
+        <h2 class="text-3xl lg:text-4xl max-[300px]:text-xl ">Gaming Hardware</h2>
+        <p class="text-4xl font-semibold mt-1 lg:text-5xl  max-[300px]:text-2xl ">'An absolute gem.'</p>
+        <p class="text-xl font-thin mt-2 lg:text-2xl max-[300px]:text-xl ">— TechRadar</p>
+        <button class="p-2 mt-7 bg-[#70e000] font-medium rounded-sm text-black lg:text-xl">Shop Now</button>
+      </div>
+
+    
+
+      <!--  -->
+        <div class="absolute flex gap-3 p-6 lg:gap-5 justify-center w-full bottom-0">
+          <div class=" bar h-1 w-[6em] bg-white "> </div>
+          <div class="h-1 w-[6em] bg-white "></div>
+          <div class="h-1 w-[6em] bg-white "></div>
+        </div>
+
+    </div>
+
+    </section>
+
+    <section class="cardSection h-[25em] lg:h-[30em]  bg-[#141414] w-full" >
+
+      <div class="text-white p-5  lg:pl-[6.7em] lg:pt-[3em] ">
+        <h2 class="text-xl lg:text-3xl font-semibold lg:font-bold ">Recommended For You <i class="  fa-solid fa-gear" style="color: #d1d1d1;"></i></h2>
+      </div >
+
+      <div class="cardCollection  lg:pl-[6em] lg:ml-4 lg:pt-[2em] p-5  flex gap-7 overflow-x-auto " >
+        <div class="min-w-[16em] lg:min-w-[18em] rounded-sm  bg-white"><img class="w-full" src="images/card1.png" alt="#"><h2 class="text-xs px-3 pt-[1.2em]  text-slate-700">NVIDIA GTC | Event</h2><p class="px-3 font-semibold py-[0.8em]">Brilliant Minds. Breakthrough Discoveries.</p></div>
+        <div class="min-w-[16em] lg:min-w-[18em] rounded-sm  bg-white"><img class="w-full" src="images/card2.png" alt="#"><h2 class="text-xs px-3 pt-[1.2em]  text-slate-700">Gaming Hardware | Announcement</h2><p class="px-3 font-semibold py-[0.8em]">RTX 4070 SUPER GPUs.</p></div>
+        <div class="min-w-[16em] lg:min-w-[18em] rounded-sm  bg-white"><img class="w-full" src="images/card3.png" alt="#"><h2 class="text-xs px-3 pt-[1.2em]  text-slate-700">Simulation | Product</h2><p class="px-3 font-semibold py-[0.8em]">Now Available: NVIDIA RTX 4500 Ada Generation.</p></div>
+        <div class="min-w-[16em] rounded-sm lg:min-w-[18em]  bg-white"><img class="w-full" src="images/card4.png" alt="#"><h2 class="text-xs px-3 pt-[1.2em]  text-slate-700">AI | Brochure</h2><p class="px-3 font-semibold py-[0.8em]">State of AI in Financial Services: 2024 Trends.</p></div>
+        <div class="min-w-[16em] rounded-sm lg:min-w-[18em]  bg-white"><img class="w-full" src="images/card5.png" alt="#"><h2 class="text-xs px-3 pt-[1.2em]  text-slate-700">Simulation | Blog</h2><p class="px-3 font-semibold py-[0.8em]">3D Renaissance Comes to Life With Latest OpenUSD...</p></div>
+        <div class="min-w-[16em] rounded-sm lg:min-w-[18em]  bg-white"><img class="w-full" src="images/card6.png" alt="#"><h2 class="text-xs px-3 pt-[1.2em]  text-slate-700">Generative AI/LLMs | Blog</h2><p class="px-3 font-semibold py-[0.8em]">Amgen To Build Generative AI Models For Novel Human Data...</p></div>
+        <div class="min-w-[16em] rounded-sm lg:min-w-[18em]  bg-white"><img class="w-full" src="images/card7.png" alt="#"><h2 class="text-xs px-3 pt-[1.2em]  text-slate-700">Games | News</h2><p class="px-3 font-semibold py-[0.8em]">500 RTX Games and Apps!!!</p></div>
+        <div class="min-w-[16em] rounded-sm lg:min-w-[18em]  bg-white"><img class="w-full" src="images/card8.png" alt="#"><h2 class="text-xs px-3 pt-[1.2em]  text-slate-700">Gaming Hardware | News</h2><p class="px-3 font-semibold py-[0.8em]">GeForce RTX 40 Series Laptops.</p></div>
+      </div>
+
+    </section>
+
+    <!-- first section -->
+
+<section class=" strip lg:h-[8em] h-[19em] lg:flex gap-[3em] lg:px-[6.5em]  px-3 bg-[#e5e5e5]">
+      <div class="svg2 lg:w-[6.2em] w-[5.5em] h-[6em]"><img src="images\GTC23-Lockup.svg" alt=""> </div>
+
+      <div class="">
+        <h2 class="text-[1.7em] pb-2 font-medium text-wrap lg:text-[2.5em]">The Conference for the Era of AI</h2>
+        <p class="text-lg lg:text-[1.5em]">Join us in person at San Jose, CA or virtually on March 18–21, 2024. <br class="lg:hidden"> <a class="font-bold cursor-pointer " href="#"> Save on Passes <i class="mt-1 fa-solid fa-chevron-right" style="color: #11ff00;"></i> </a></p>
+      </div>
+</section>
+
+
+    <section class="  lg:grid lg:grid-cols-2  bg-white py-12 lg:pl-7 pl-7 pr-0 "> 
+      <!-- Ai data content  -->
+
+      <div class="lg:w-[80%] lg:pl-[6em] lg:pt-4 pr-7 ">
+        <h2 class=" Ai-head text-2xl lg:text-4xl lg:font-bold font-semibold">AI and Data Science</h2>
+        <p class="pt-5 lg:mt-5 lg:text-2xl lg:w-full lg:font-normal lg:leading-[1.7em] text-gray-800 text-xl font-light">AI is powering change in every industry. From generative AI and speech recognition to medical imaging and improved supply chain management, AI is providing enterprises the compute power, tools, and algorithms their teams need to do their life's work.</p>
+        <span onclick="hideandUnhidelinks()" class="btn-links cursor-pointer block py-4 font-semibold text-lg  lg:font-bold lg:text-xl  ">Quick Links <i class="fa-solid fa-chevron-down" style="color: #00ff1e;"></i> </span>
+        <div id="hide-link">
+        <ul  class = "lg:font-semibold lg:text-xl flex  flex-wrap gap-4 ">
+          <li class="cursor-pointer" >Overview <i class=" mt-1 fa-solid fa-chevron-right" style="color: #11ff00;"></i> </li>
+          <li class="cursor-pointer" >Data Analytics <i class=" mt-1 fa-solid fa-chevron-right" style="color: #11ff00;"></i> </li>
+          <li class="cursor-pointer" >Machine Learning <i class=" mt-1 fa-solid fa-chevron-right" style="color: #11ff00;"></i> </li>
+          <li class="cursor-pointer" >Predictive Analytics <i class=" mt-1 fa-solid fa-chevron-right" style="color: #11ff00;"></i> </li>
+          <li class="cursor-pointer" >Recommender Systems <i class=" mt-1 fa-solid fa-chevron-right" style="color: #11ff00;"></i> </li>
+        </ul>
+      </div>
+      </div>
+
+
+ 
+
+        <!-- card gellary -->
+
+      <!-- <div class=""> -->
+
+        <div class="cardsection flex gap-7 w-full  mb-[2em] drop-shadow-2xl mt-[3em] overflow-x-auto ">
+          <div class="min-w-[16em] lg:min-w-[26em] rounded-sm  bg-white"><img class="w-full" src="images/sec2-card1.jpeg" alt="#"><h2 class=" lg:text-base lg:font-bold lg:text-slate-800 lg:px-[2em] text-sm px-3 pt-[1.5em] font-semibold text-black">AI | Brochure</h2><p class="px-3 lg:px-[2em]  pt-[2.5em] lg:pb-[4em] pb-[10em] "><span class="inline-block mb-3 lg:font-semibold ">State of AI in Financial Services:</span><br> <span class="font-light"> 2024 Trends Dive into the survey results that define the state of AI in financial services in 2024</span>.</p></div>
+          <div class="min-w-[16em] lg:min-w-[26em] rounded-sm  bg-white"><img class="w-full" src="images/sec2-card2.jpeg" alt="#"><h2 class=" lg:text-base lg:font-bold lg:text-slate-800 lg:px-[2em] text-sm px-3 pt-[1.5em] font-semibold text-black">Generative AI/LLMs | Blog</h2><p class="px-3 lg:px-[2em]  pt-[2.5em] lg:pb-[4em] pb-[10em] "><span class="inline-block mb-3 lg:font-semibold ">Amgen To Build Generative AI Models For Novel Human Data Insights</span><br> <span class="font-light"> Amgen to advance drug discovery with DGX SuperPOD-powered insights</span>.</p></div>
+          <div class="min-w-[16em] lg:min-w-[26em] rounded-sm  bg-white"><img class="w-full" src="images/sec2-card3.jpeg" alt="#"><h2 class=" lg:text-base lg:font-bold lg:text-slate-800 lg:px-[2em] text-sm px-3 pt-[1.5em] font-semibold text-black">AI | Blog</h2><p class="px-3lg:px-[2em]  pt-[2.5em] lg:pb-[4em] pb-[10em] "><span class="inline-block mb-3 lg:font-semibold ">NVIDIA Triton Accelerates Inference on Oracle Cloud</span><br> <span class="font-light"> Explore how Triton increased OCI’s prediction throughput and reduced TCO and inference latency</span>.</p></div>
+          <div class="min-w-[16em] lg:min-w-[26em] rounded-sm  bg-white"><img class="w-full" src="images/sec2-card4.jpeg" alt="#"><h2 class=" lg:text-base lg:font-bold lg:text-slate-800 lg:px-[2em] text-sm px-3 pt-[1.5em] font-semibold text-black">AI | Webinar</h2><p class="px-3 lg:px-[2em] pt-[2.5em] lg:pb-[4em] pb-[10em] "><span class="inline-block mb-3 lg:font-semibold ">Fast-Track to Generative AI with NVDIA</span><br> <span class="font-light">Join this webinar to learn how NVIDIA AI foundry can help you build, train, and deploy custom generative AI models at scale anywhere.</span>.</p></div>
+          <div class="min-w-[16em] lg:min-w-[26em] rounded-sm  bg-white"><img class="w-full" src="images/sec2-card5.jpeg" alt="#"><h2 class=" lg:text-base lg:font-bold lg:text-slate-800 lg:px-[2em] text-sm px-3 pt-[1.5em] font-semibold text-black">Generative AI | Blog</h2><p class="px-3 lg:px-[2em] pt-[2.5em] lg:pb-[4em] pb-[10em] "><span class="inline-block mb-3 lg:font-semibold ">Large Language Models in the Enterprise</span><br> <span class="font-light"> Explore eight key topics essential for enterprise LLMs, from model selection to deployment.</span>.</p></div>
+          <div class="min-w-[16em] lg:min-w-[26em] rounded-sm  bg-white"><img class="w-full" src="images/sec2-card6.jpeg" alt="#"><h2 class=" lg:text-base lg:font-bold lg:text-slate-800 lg:px-[2em] text-sm px-3 pt-[1.5em] font-semibold text-black">AGenerative AI/LLMs | Blog</h2><p class="px-3 lg:px-[2em] pt-[2.5em] lg:pb-[4em] pb-[10em] "><span class="inline-block mb-3 lg:font-semibold ">Amazon Taps NVIDIA for Faster, More Efficient LLM Training</span><br> <span class="font-light"> Amazon uses NVIDIA NeMo™ and GPUs to train a next-generation LLM for Amazon Bedrock.</span>.</p></div>
+          <div class="min-w-[16em] lg:min-w-[26em] rounded-sm  bg-white"><img class="w-full" src="images/sec2-card7.jpeg" alt="#"><h2 class=" lg:text-base lg:font-bold lg:text-slate-800 lg:px-[2em] text-sm px-3 pt-[1.5em] font-semibold text-black">AI | Blog</h2><p class="px-3 lg:px-[2em] pt-[2.5em] lg:pb-[4em] pb-[10em] "><span class="inline-block mb-3 lg:font-semibold ">TensorRT-LLM Boosts AI on RTX Windows PCs, Adds New Model Support</span><br> <span class="font-light">Includes OpenAI TensorRT-LLM wrapper, RTX improvements to DirectML for Llama 2 and other LLMs.</span>.</p></div>
+          <div class="min-w-[16em] lg:min-w-[26em] rounded-sm  bg-white"><img class="w-full" src="images/sec2-card8.jpeg" alt="#"><h2 class=" lg:text-base lg:font-bold lg:text-slate-800 lg:px-[2em] text-sm px-3 pt-[1.5em] font-semibold text-black">Generative AI | Blog</h2><p class="px-3 lg:px-[2em] pt-[2.5em] lg:pb-[4em] pb-[10em] "><span class="inline-block mb-3 lg:font-semibold ">NVIDIA Takes Machine Learning to the Next Level</span><br> <span class="font-light"> NVIDIA Chief Scientist Bill Dally’s keynote at Hot Chips 35 shares the dramatic gains in hardware performance that spawned generative AI</span>.</p></div>
+          
+        </div>
+
+      <!-- </div> -->
+    </section>
+
+  <!--**** Second Section ****-->
+
+    <section class="  lg:grid lg:grid-cols-2  bg-white py-12 lg:pl-7 pl-7 pr-0 "> 
+      <!-- Ai data content  -->
+
+      <div class="lg:w-[80%] lg:pl-[6em] lg:pt-4 pr-7 ">
+        <h2 class=" Ai-head text-2xl lg:text-4xl lg:font-bold font-semibold">Robotics and Edge Computing</h2>
+        <p class="pt-5 lg:mt-5 lg:text-2xl lg:w-full lg:font-normal lg:leading-[1.7em] text-gray-800 text-xl font-light">The NVIDIA Jetson™ and Isaac™ platforms provide end-to-end solutions to develop and deploy AI-powered autonomous machines and edge computing applications across manufacturing, logistics, healthcare, smart cities, and retail.</p>
+        <span onclick="hideandUnhidelinks2()" class="btn-links2 cursor-pointer block py-4 font-semibold text-lg  lg:font-bold lg:text-xl  ">Quick Links <i class="fa-solid fa-chevron-down" style="color: #00ff1e;"></i> </span>
+        <div id="hide-link2">
+        <ul  class = "lg:font-semibold lg:text-xl flex  flex-wrap gap-4 ">
+          <li class="cursor-pointer" >Overview <i class=" mt-1 fa-solid fa-chevron-right" style="color: #11ff00;"></i> </li>
+          <li class="cursor-pointer" >Robotics Research<i class=" mt-1 fa-solid fa-chevron-right" style="color: #11ff00;"></i> </li>
+          <li class="cursor-pointer" >Isaac Simulation  <i class=" mt-1 fa-solid fa-chevron-right" style="color: #11ff00;"></i> </li>
+          <li class="cursor-pointer" >Predictive Analytics <i class=" mt-1 fa-solid fa-chevron-right" style="color: #11ff00;"></i> </li>
+          <li class="cursor-pointer" >NVIDIA-Certified Systems <i class=" mt-1 fa-solid fa-chevron-right" style="color: #11ff00;"></i> </li>
+          <li class="cursor-pointer" >Ecosystem Partners<i class=" mt-1 fa-solid fa-chevron-right" style="color: #11ff00;"></i> </li>
+        </ul>
+      </div>
+    </div>
+
+
+
+
+        <!-- card gellary -->
+
+      <!-- <div class=""> -->
+
+        <div class="cardsection flex gap-7 w-full  mb-[2em] drop-shadow-2xl mt-[3em] overflow-x-auto ">
+          <div class="min-w-[16em] lg:min-w-[26em] rounded-sm  bg-white"><img class="w-full" src="images/pic1.jpeg" alt="#"><h2 class=" lg:text-base lg:font-bold lg:text-slate-800 lg:px-[2em] text-sm px-3 pt-[1.5em] font-semibold text-black">Manufacturing | Blog</h2><p class="px-3 lg:px-[2em]  pt-[2.5em] lg:pb-[4em] pb-[10em] "><span class="inline-block mb-3 lg:font-semibold ">Introducing Metropolis for Factories:</span><br> <span class="font-light">Learn how electronics giants tap into industrial automation with NVIDIA Metropolis for Factories</span>.</p></div>
+          <div class="min-w-[16em] lg:min-w-[26em] rounded-sm  bg-white"><img class="w-full" src="images/pic2.jpeg" alt="#"><h2 class=" lg:text-base lg:font-bold lg:text-slate-800 lg:px-[2em] text-sm px-3 pt-[1.5em] font-semibold text-black">Robotics | Product</h2><p class="px-3 lg:px-[2em]  pt-[2.5em] lg:pb-[4em] pb-[10em] "><span class="inline-block mb-3 lg:font-semibold ">The Future of Industrial-Grade Edge AI</span><br> <span class="font-light">Check out the rugged, power-efficient NVIDIA Jetson AGX Orin™ Industrial system-on-module.</span>.</p></div>
+          <div class="min-w-[16em] lg:min-w-[26em] rounded-sm  bg-white"><img class="w-full" src="images/pic3.jpeg" alt="#"><h2 class=" lg:text-base lg:font-bold lg:text-slate-800 lg:px-[2em] text-sm px-3 pt-[1.5em] font-semibold text-black">Manufacturing | Blog</h2><p class="px-3lg:px-[2em]  pt-[2.5em] lg:pb-[4em] pb-[10em] "><span class="inline-block mb-3 lg:font-semibold ">Techman Robot Selects Isaac Sim for Automated Optical Inspection</span><br> <span class="font-light">The company is accelerating robotics-based inspection in automotive and electronics manufacturing.</span>.</p></div>
+          <div class="min-w-[16em] lg:min-w-[26em] rounded-sm  bg-white"><img class="w-full" src="images/pic4.jpeg" alt="#"><h2 class=" lg:text-base lg:font-bold lg:text-slate-800 lg:px-[2em] text-sm px-3 pt-[1.5em] font-semibold text-black">Robotics  | Product</h2><p class="px-3 lg:px-[2em] pt-[2.5em] lg:pb-[4em] pb-[10em] "><span class="inline-block mb-3 lg:font-semibold ">NVIDIA® Jetson Orin Nano™ Developer Kit</span><br> <span class="font-light">Discover a new standard for creating entry-level AI-powered robots, smart drones, and intelligent cameras.</span>.</p></div>
+          <div class="min-w-[16em] lg:min-w-[26em] rounded-sm  bg-white"><img class="w-full" src="images/pic5.jpeg" alt="#"><h2 class=" lg:text-base lg:font-bold lg:text-slate-800 lg:px-[2em] text-sm px-3 pt-[1.5em] font-semibold text-black">Generative AI | Blog</h2><p class="px-3 lg:px-[2em] pt-[2.5em] lg:pb-[4em] pb-[10em] "><span class="inline-block mb-3 lg:font-semibold ">Large Language Models in the Enterprise</span><br> <span class="font-light"> Explore eight key topics essential for enterprise LLMs, from model selection to deployment.</span>.</p></div>
+          <div class="min-w-[16em] lg:min-w-[26em] rounded-sm  bg-white"><img class="w-full" src="images/pic6.jpeg" alt="#"><h2 class=" lg:text-base lg:font-bold lg:text-slate-800 lg:px-[2em] text-sm px-3 pt-[1.5em] font-semibold text-black">AGenerative AI/LLMs | Blog</h2><p class="px-3 lg:px-[2em] pt-[2.5em] lg:pb-[4em] pb-[10em] "><span class="inline-block mb-3 lg:font-semibold ">Amazon Taps NVIDIA for Faster, More Efficient LLM Training</span><br> <span class="font-light"> Amazon uses NVIDIA NeMo™ and GPUs to train a next-generation LLM for Amazon Bedrock.</span>.</p></div>
+          <div class="min-w-[16em] lg:min-w-[26em] rounded-sm  bg-white"><img class="w-full" src="images/pic7.jpeg" alt="#"><h2 class=" lg:text-base lg:font-bold lg:text-slate-800 lg:px-[2em] text-sm px-3 pt-[1.5em] font-semibold text-black">AI | Blog</h2><p class="px-3 lg:px-[2em] pt-[2.5em] lg:pb-[4em] pb-[10em] "><span class="inline-block mb-3 lg:font-semibold ">TensorRT-LLM Boosts AI on RTX Windows PCs, Adds New Model Support</span><br> <span class="font-light">Includes OpenAI TensorRT-LLM wrapper, RTX improvements to DirectML for Llama 2 and other LLMs.</span>.</p></div>
+          <div class="min-w-[16em] lg:min-w-[26em] rounded-sm  bg-white"><img class="w-full" src="images/pic8.jpeg" alt="#"><h2 class=" lg:text-base lg:font-bold lg:text-slate-800 lg:px-[2em] text-sm px-3 pt-[1.5em] font-semibold text-black">Generative AI | Blog</h2><p class="px-3 lg:px-[2em] pt-[2.5em] lg:pb-[4em] pb-[10em] "><span class="inline-block mb-3 lg:font-semibold ">NVIDIA Takes Machine Learning to the Next Level</span><br> <span class="font-light"> NVIDIA Chief Scientist Bill Dally’s keynote at Hot Chips 35 shares the dramatic gains in hardware performance that spawned generative AI</span>.</p></div>
+          <div class="min-w-[16em] lg:min-w-[26em] rounded-sm  bg-white"><img class="w-full" src="images/pic9.jpeg" alt="#"><h2 class=" lg:text-base lg:font-bold lg:text-slate-800 lg:px-[2em] text-sm px-3 pt-[1.5em] font-semibold text-black">Generative AI | Blog</h2><p class="px-3 lg:px-[2em] pt-[2.5em] lg:pb-[4em] pb-[10em] "><span class="inline-block mb-3 lg:font-semibold ">NVIDIA Takes Machine Learning to the Next Level</span><br> <span class="font-light"> NVIDIA Chief Scientist Bill Dally’s keynote at Hot Chips 35 shares the dramatic gains in hardware performance that spawned generative AI</span>.</p></div>
+          
+        </div>
+
+      <!-- </div> -->
+    </section>
+
+
+    <!-- ----*** Footer ***----- -->
+
+    <footer class=" footerr w-full bg-black px-10 lg:px-[7em] pt-4 lg:grid  lg:gap-10 lg:grid-cols-3">
+
+      <!-- first col -->
+
+     
+      <div class="lg:mt-[4em]">
+        <h2 class="text-white pb-3 flex justify-center border-b-[1px] border-white lg:font-semibold lg:text-2xl">Company Information</h2>
+        <ul class="text-[#80b918] mt-[1.3em] flex flex-row lg:flex-col text-base lg:flex-nowrap flex-wrap gap-5 ">
+          <li class="px-2 cursor-pointer  " >About Us</li>
+          <li class="px-2 cursor-pointer  " >Company Overview</li>
+          <li class="px-2 cursor-pointer  " >Investors</li>
+          <li class="px-2 cursor-pointer  " >Venture Capital (NVentures)</li>
+          <li class="px-2 cursor-pointer  " >NVIDIA Foundation</li>
+          <li class="px-2 cursor-pointer  " >Research</li>
+          <li class="px-2 cursor-pointer  " >Social Responsibility</li>
+          <li class="px-2 cursor-pointer  " >Technologies</li>
+          <li class="px-2 cursor-pointer  " >Careers</li>
+          
+        </ul>
+
+      </div>
+
+      <!-- second col -->
+
+
+       <div class="mt-[4em]">
+        <!-- <h2>News and Events</h2> -->
+        <h2 class="text-white pb-3 flex justify-center border-b-[1px] border-white lg:font-semibold lg:text-2xl">News and Events</h2>
+        <ul class="text-[#80b918] mt-[1.3em] flex flex-row  lg:flex-col text-base lg:flex-nowrap flex-wrap gap-5 ">
+          <li class="px-2 cursor-pointer  " >Newsroom</li>
+          <li class="px-2 cursor-pointer  " >Company Blog</li>
+          <li class="px-2 cursor-pointer  " >Webinars</li>
+          <li class="px-2 cursor-pointer  " >Stay Informed</li>
+          <li class="px-2 cursor-pointer  " >Events Calendar</li>
+          <li class="px-2 cursor-pointer  " >GTC AI Conference</li>
+          <li class="px-2 cursor-pointer  " >NVIDIA On-Demand</li>
+          <!-- <li class="px-2 " >Technologies</li>
+          <li class="px-2 " >Careers</li> -->
+          
+        </ul>
+
+
+      </div>
+
+
+      <!--third col  -->
+
+
+       <div class="mt-[4em]">
+        <!-- <h2>Popular Links</h2> -->
+        <h2 class="text-white pb-3 flex justify-center border-b-[1px] border-white lg:font-semibold lg:text-2xl">Popular Links</h2>
+        <ul class="text-[#80b918] mt-[1.3em] flex flex-row lg:flex-col text-base lg:flex-nowrap flex-wrap gap-5 ">
+          <li class="px-2 cursor-pointer " >Developers</li>
+          <li class="px-2 cursor-pointer " >Partners</li>
+          <li class="px-2 cursor-pointer " >Startups and VCs</li>
+          <li class="px-2 cursor-pointer " >Documentation </li>
+          <li class="px-2 cursor-pointer " >Technical Training</li>
+          <li class="px-2 cursor-pointer " >Training for IT Professionals</li>
+          <li class="px-2 cursor-pointer " >Professional Services for Data Science</li>
+          <!-- <li class="px-2 " >Technologies</li>
+          <li class="px-2 " >Careers</li>
+           -->
+        </ul>
+
+      </div>
+
+      <div class="text-white mt-[2em] pb-3 ">
+        <label class="mr-3" for="text">Sign Up for NVIDIA News</label><button class="p-2  rounded-md text-black font-semibold bg-[#80b918]">Subscribe</button>
+      </div>
+
+     
+    </footer> 
+
+
+
+
+
+
+<script src="script.js" ></script>
+</body>
+</html>
+
+
+
